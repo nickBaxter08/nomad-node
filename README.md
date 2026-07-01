@@ -37,15 +37,7 @@ NOMAD Node collects hardware and network metrics from a Raspberry Pi Pico 2 W an
 
 ## Architecture
 
-Pico 2 W
-↓
-WiFi
-↓
-FastAPI Server
-↓
-Database
-↓
-Dashboard
+Pico 2 W→WiFi→FastAPI Server→Database→Dashboard
 
 ## Status
 
