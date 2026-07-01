@@ -4,16 +4,60 @@
 - Set up Github Repository
 
 # Day 2
-
-Learned:
 - Installed MicroPython
 - Connected Pico 2 W
 - Used Thonny
 - Ran first program
 - Saved code to Pico
+- Learned Raspberry Pi Pico 2 W GPIO fundamentals
+- Controlled the onboard LED using MicroPython
+- Created reusable hardware modules
+- Organized firmware code into separate components
+
+Built:
+- LED status controller
+- NOMAD Node boot/status indicator
 
 Hardware:
 - Raspberry Pi Pico 2 W
 
 Language:
 - MicroPython
+
+
+Concepts learned:
+- GPIO (General Purpose Input/Output)
+- Digital outputs
+- HIGH and LOW signals
+- Using the `machine` MicroPython library
+- Creating functions for hardware control
+- Importing custom modules
+
+Implementation:
+The onboard LED is now controlled through a dedicated hardware module instead of being directly written in `main.py`.
+
+The LED can display device states:
+- Booting
+- Online
+- Error states
+
+Example:
+NOMAD NODE
+
+STATUS:
+ONLINE
+
+LED:
+ACTIVE
+
+
+Challenges:
+- Learned how infinite loops can block the MicroPython REPL
+- Practiced stopping and restarting the Pico interpreter
+- Verified code runs directly on the Pico 2 W
+
+Next:
+- Learn GPIO inputs
+- Add button controls
+- Create user interaction with the Pico
+
