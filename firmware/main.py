@@ -1,3 +1,8 @@
+"""
+NOMAD Node LED Controller
+
+Controls device status LED.
+"""
 from time import sleep
 
 
