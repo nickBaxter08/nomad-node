@@ -1,0 +1,19 @@
+# Day 1
+- Began Project
+- Got stuck 10 minutes into setting it up
+- Set up Github Repository
+
+# Day 2
+
+Learned:
+- Installed MicroPython
+- Connected Pico 2 W
+- Used Thonny
+- Ran first program
+- Saved code to Pico
+
+Hardware:
+- Raspberry Pi Pico 2 W
+
+Language:
+- MicroPython
