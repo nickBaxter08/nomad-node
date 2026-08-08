@@ -41,4 +41,4 @@ Pico 2 W→WiFi→FastAPI Server→Database→Dashboard
 
 ## Status
 
-Currently in development.
+Ceased Development.
